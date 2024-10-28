@@ -1,0 +1,25 @@
+:root {
+  --cor-primaria: #ff8c00;    /* Laranja suave */
+  --cor-secundaria: #ffc107;  /* Amarelo dourado */
+  --cor-destaque: #00bcd4;    /* Azul claro */
+  --cor-fundo: #121212;       /* Preto quase total */
+  --cor-fundo-claro: #7d7a7a  ;  /* Cor mais clara para o gradiente */
+  --cor-superficies: #1e1e1e; /* Cinza escuro */
+  --cor-texto: #e0e0e0;       /* Cinza claro */
+  --cor-texto-desabilitado: #b0b0b0; /* Cinza suave */
+  --cor-sucesso: #4caf50;     /* Verde sucesso */
+  --cor-erro: #f44336;        /* Vermelho erro */
+  --cor-borda: #333333;       /* Cinza borda */
+}
+*{
+  box-sizing: border-box;
+}
+body {
+  background-attachment: fixed;
+  color: var(--cor-texto);
+  font-family: 'Arial', sans-serif;
+  background-size: cover;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
